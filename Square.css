@@ -1,0 +1,67 @@
+ button {
+    text-align: center;
+    width: 25px;
+    height: 25px;
+}
+button h4{
+    font-size: 34px;
+    font-weight: 500;
+}
+.bg-btn{
+  width: 10%;
+  height: 40px;
+  font-size: large;
+  margin: 20px;
+}
+.boxes{
+  text-align: center;
+  margin-left: 430px;
+}
+.Player {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+    padding-bottom: 30px;
+  }
+  
+  .first-row,
+  .second-row,
+  .third-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Sq {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    margin: 5px;
+    background-color: #eee;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fourth-row{
+    display: flex !important;
+    text-align: center !important;
+    margin-left: 460px !important;
+  }
+  .Sq:hover {
+    background-color: #ddd;
+  }
+  body{
+    background-color: #2d2d30	;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .text-white {
+    color: white;
+  }
+  
